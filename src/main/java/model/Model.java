@@ -61,7 +61,7 @@ public class Model extends Observable{
     
     public void lireSuivant(){
         
-        Path helloPath = Paths.get("src/messages.txt");
+        Path helloPath = Paths.get("src/main/java/messages.txt");
         Charset charset = Charset.forName("UTF-8");
         
         try
@@ -85,7 +85,7 @@ public class Model extends Observable{
     
     public void lirePrecedent(){
         
-        Path helloPath = Paths.get("src/messages.txt");
+        Path helloPath = Paths.get("src/main/java/messages.txt");
         Charset charset = Charset.forName("UTF-8");
         //reinitialisation si au bout
         
