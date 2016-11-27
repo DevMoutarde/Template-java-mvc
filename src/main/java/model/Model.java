@@ -181,6 +181,12 @@ public class Model extends Observable{
     public void setMessage(String message) {
         this.message = message;
     }
+
+    public static int casTest(){
+        
+        return 2;
+    }
+    
     
     
 

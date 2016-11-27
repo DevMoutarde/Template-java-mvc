@@ -14,6 +14,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>cobertura</groupId>
+      <artifactId>cobertura</artifactId>
+      <version>1.9rc1</version>
+      <scope>test</scope>
+      <type>pom</type>
+    </dependency>
   </dependencies>
   
   <build>
